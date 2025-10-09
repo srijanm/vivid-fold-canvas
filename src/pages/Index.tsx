@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.jpg";
-import mockupImage from "@/assets/mockup-nobg.png";
+import productBox from "@/assets/product-box.png";
+import productTin from "@/assets/product-tin.png";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -51,17 +52,33 @@ const Index = () => {
 
       {/* Image Reveal Section */}
       <section className="min-h-screen flex items-center justify-center py-20 px-4">
-        <div 
-          className="max-w-5xl w-full transition-all duration-1000 hover:scale-105 animate-float"
-          style={{
-            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
-          }}
-        >
-          <img 
-            src={mockupImage} 
-            alt="Guilt Free Diwali Product Mockup" 
-            className="w-full h-auto"
-          />
+        <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
+          <div 
+            className="flex-1 max-w-md transition-all duration-1000 hover:scale-105 animate-float"
+            style={{
+              filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+              animationDelay: '0s'
+            }}
+          >
+            <img 
+              src={productBox} 
+              alt="Guilt Free Diwali Product Box" 
+              className="w-full h-auto"
+            />
+          </div>
+          <div 
+            className="flex-1 max-w-md transition-all duration-1000 hover:scale-105 animate-float"
+            style={{
+              filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+              animationDelay: '0.5s'
+            }}
+          >
+            <img 
+              src={productTin} 
+              alt="Guilt Free Diwali Product Tin" 
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </section>
 
