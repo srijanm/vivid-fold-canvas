@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.jpg";
-import productImage from "@/assets/product.png";
+import mockupImage from "@/assets/mockup.png";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -58,7 +58,7 @@ const Index = () => {
           }}
         >
           <img 
-            src={productImage} 
+            src={mockupImage} 
             alt="Guilt Free Diwali Product Mockup" 
             className="w-full h-auto"
           />
