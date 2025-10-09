@@ -27,7 +27,7 @@ const Index = () => {
           }`}
         >
           <div className="text-center z-10 max-w-4xl">
-            <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6 leading-relaxed">
+            <h1 className="text-lg md:text-2xl font-bold text-foreground mb-6 leading-relaxed">
               gifts without the guilt.
               <br /><br />
               show your love with mithai that's good for your loved ones.
