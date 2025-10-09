@@ -18,7 +18,7 @@ const Index = () => {
         <img 
           src={logo} 
           alt="The Whole Truth" 
-          className="w-40 h-auto mx-auto mb-8 drop-shadow-2xl"
+          className="w-40 h-auto mx-auto mb-4 drop-shadow-2xl"
         />
         
         <div 
