@@ -1,7 +1,4 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 import productImage from "@/assets/product.png";
@@ -14,29 +11,37 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-yellow-bright">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center gradient-hero relative overflow-hidden">
+      <section className="min-h-screen flex flex-col relative overflow-hidden px-4 pt-8">
+        <img 
+          src={logo} 
+          alt="The Whole Truth" 
+          className="w-40 h-auto mx-auto mb-8 drop-shadow-2xl"
+        />
+        
         <div 
-          className={`text-center z-10 px-4 transition-all duration-1000 ${
+          className={`flex-1 flex items-center justify-center transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <img 
-            src={logo} 
-            alt="The Whole Truth" 
-            className="w-48 h-auto mx-auto mb-12 drop-shadow-2xl"
-          />
-          <h1 className="text-6xl md:text-8xl font-bold text-foreground mb-6 leading-tight">
-            GUILT FREE
-            <br />
-            <span className="text-blue-deep">LIVING</span>
-          </h1>
-          <p className="text-xl md:text-2xl font-medium text-foreground/90 max-w-2xl mx-auto">
-            Real food. No added sugar. No artificial sweeteners.
-            <br />
-            Just the whole truth.
-          </p>
+          <div className="text-center z-10 max-w-4xl">
+            <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6 leading-relaxed">
+              gifts without the guilt.
+              <br /><br />
+              show your love with mithai that's good for your loved ones.
+              <br /><br />
+              the TWT protein bars that you love so much. in bite sized mithai like chunks.
+              <br /><br />
+              high in protein. no added sugar. no fillers. no preservatives. no false claims. and no half truths.
+              <br /><br />
+              because mithai should be eaten hakk se.
+              <br /><br />
+              available in a special edition tin box. can only be gifted, not bought.
+              <br /><br />
+              <span className="text-pink-vibrant">soch nayi, pyar wahi.</span>
+            </h1>
+          </div>
         </div>
 
         {/* Decorative elements */}
@@ -45,35 +50,40 @@ const Index = () => {
       </section>
 
       {/* Image Reveal Section */}
-      <section className="min-h-screen flex items-center justify-center bg-background py-20 px-4">
+      <section className="min-h-screen flex items-center justify-center py-20 px-4">
         <div 
-          className="max-w-5xl w-full transition-all duration-1000 hover:scale-105"
+          className="max-w-5xl w-full transition-all duration-1000 hover:scale-105 animate-float"
+          style={{
+            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+          }}
         >
           <img 
             src={productImage} 
-            alt="Guilt Free Diwali Product" 
-            className="w-full h-auto rounded-3xl shadow-2xl decorative-border"
+            alt="Guilt Free Diwali Product Mockup" 
+            className="w-full h-auto"
           />
         </div>
       </section>
 
       {/* Text on Background Section */}
       <section className="min-h-screen flex items-center justify-center gradient-text relative overflow-hidden py-20 px-4">
-        <div className="max-w-4xl text-center z-10">
-          <h2 className="text-5xl md:text-7xl font-bold text-background mb-8">
-            NO HALF-TRUTHS
-          </h2>
-          <div className="space-y-6 text-xl md:text-2xl text-background/90 font-medium">
-            <p>NO ADDED SUGAR</p>
-            <p>NO ADDED FLAVOUR</p>
-            <p>NO ARTIFICIAL SWEETENERS</p>
-            <p>NO SOY OR GLUTEN</p>
-            <p>NO FALSE CLAIMS</p>
-          </div>
-          <div className="mt-12">
-            <p className="text-3xl md:text-4xl font-bold text-yellow-bright">
-              SOCH NAYI, PYAR WAHI
-            </p>
+        <div className="max-w-4xl z-10">
+          <div className="space-y-6 text-lg md:text-xl text-background/90 font-medium leading-relaxed">
+            <p>Exchanging diwali gifts is a tale as old as time & mithai is always a part of the exchange.</p>
+            
+            <p>With an increasing number of people conscious about their health, mithai just doesn't feel right to gift, especially to people who you know are trying to take care of themselves.</p>
+            
+            <p>Because most mithai usually ends up as the cause for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
+            
+            <p className="font-bold text-xl md:text-2xl">But what if we could gift people "mithai" that's good for them?</p>
+            
+            <p className="font-bold text-xl md:text-2xl">Mithai without the guilt?</p>
+            
+            <p>TWT has cemented itself as the go to brand for healthy, high protein foods.</p>
+            
+            <p>It would be amazing to launch a "Guilt Free Diwali ki Mithai" with an assortment of bite sized protein bars in a limited edition Diwali edition tin. If "guilt free" is not the right positioning, high protein can be one too.</p>
+            
+            <p>If you make this as a limited edition box which you can't buy for yourself but you can only gift to others (and do a take on the "regifting" phenomenon), it might be a great way to get newer people to try TWT (since people who're aware of TWT will send it to newer people) and get a whole new audience to taste TWT.</p>
           </div>
         </div>
 
@@ -83,55 +93,23 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="min-h-screen flex items-center justify-center bg-background py-20 px-4">
+      <section className="min-h-screen flex items-center justify-center py-20 px-4">
         <div className="max-w-2xl w-full">
-          <h2 className="text-4xl md:text-6xl font-bold text-center mb-4 text-pink-vibrant">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-12 text-pink-vibrant">
             GET IN TOUCH
           </h2>
-          <p className="text-center text-xl mb-12 text-muted-foreground">
-            Have questions? We'd love to hear from you.
-          </p>
-          
-          <form className="space-y-6">
-            <div>
-              <Input 
-                type="text" 
-                placeholder="Your Name" 
-                className="h-14 text-lg border-2 border-primary/20 focus:border-primary"
-              />
-            </div>
-            <div>
-              <Input 
-                type="email" 
-                placeholder="Your Email" 
-                className="h-14 text-lg border-2 border-primary/20 focus:border-primary"
-              />
-            </div>
-            <div>
-              <Textarea 
-                placeholder="Your Message" 
-                className="min-h-32 text-lg border-2 border-primary/20 focus:border-primary resize-none"
-              />
-            </div>
-            <Button 
-              type="submit" 
-              className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground"
-            >
-              SEND MESSAGE
-            </Button>
-          </form>
 
-          <div className="mt-12 flex justify-center gap-8">
+          <div className="flex justify-center gap-8">
             <a 
               href="mailto:hello@thewholetruthfoods.com" 
-              className="flex items-center gap-2 text-lg hover:text-primary transition-colors"
+              className="flex items-center gap-2 text-lg hover:text-pink-vibrant transition-colors"
             >
               <Mail className="w-5 h-5" />
               <span>Email Us</span>
             </a>
             <a 
               href="tel:+911234567890" 
-              className="flex items-center gap-2 text-lg hover:text-primary transition-colors"
+              className="flex items-center gap-2 text-lg hover:text-pink-vibrant transition-colors"
             >
               <Phone className="w-5 h-5" />
               <span>Call Us</span>
@@ -141,7 +119,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-foreground text-background py-8 text-center">
+      <footer className="bg-foreground text-yellow-bright py-8 text-center">
         <p className="text-sm">
           © 2025 The Whole Truth Foods. All rights reserved.
         </p>
