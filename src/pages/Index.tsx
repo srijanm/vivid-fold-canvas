@@ -51,34 +51,32 @@ const Index = () => {
       </section>
 
       {/* Image Reveal Section */}
-      <section className="min-h-screen flex items-center justify-center py-20 px-4">
-        <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
-          <div 
-            className="flex-1 max-w-md transition-all duration-1000 hover:scale-105 animate-float"
-            style={{
-              filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
-              animationDelay: '0s'
-            }}
-          >
-            <img 
-              src={productBox} 
-              alt="Guilt Free Diwali Product Box" 
-              className="w-full h-auto"
-            />
-          </div>
-          <div 
-            className="flex-1 max-w-md transition-all duration-1000 hover:scale-105 animate-float"
-            style={{
-              filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
-              animationDelay: '0.5s'
-            }}
-          >
-            <img 
-              src={productTin} 
-              alt="Guilt Free Diwali Product Tin" 
-              className="w-full h-auto"
-            />
-          </div>
+      <section className="min-h-screen flex flex-col items-center justify-center py-20 gap-12">
+        <div 
+          className="w-full transition-all duration-1000 hover:scale-105 animate-float"
+          style={{
+            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+            animationDelay: '0s'
+          }}
+        >
+          <img 
+            src={productBox} 
+            alt="Guilt Free Diwali Product Box" 
+            className="w-full h-auto"
+          />
+        </div>
+        <div 
+          className="w-full transition-all duration-1000 hover:scale-105 animate-float"
+          style={{
+            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+            animationDelay: '0.5s'
+          }}
+        >
+          <img 
+            src={productTin} 
+            alt="Guilt Free Diwali Product Tin" 
+            className="w-full h-auto"
+          />
         </div>
       </section>
 
