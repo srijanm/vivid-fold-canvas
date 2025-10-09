@@ -22,11 +22,11 @@ const Index = () => {
         />
         
         <div 
-          className={`flex-1 flex items-start justify-start pt-4 transition-all duration-1000 ${
+          className={`flex flex-col transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <div className="text-left z-10 max-w-4xl">
+          <div className="text-left z-10 max-w-4xl mb-8">
             <h1 className="text-lg md:text-2xl font-bold text-foreground leading-relaxed">
               gifts without the guilt.
               <br /><br />
@@ -43,41 +43,41 @@ const Index = () => {
               <span className="text-pink-vibrant">soch nayi, pyar wahi.</span>
             </h1>
           </div>
+
+          {/* Product Images */}
+          <div className="flex flex-col gap-8 w-full">
+            <div 
+              className="w-full transition-all duration-1000 hover:scale-105 animate-float"
+              style={{
+                filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+                animationDelay: '0s'
+              }}
+            >
+              <img 
+                src={productBox} 
+                alt="Guilt Free Diwali Product Box" 
+                className="w-full h-auto"
+              />
+            </div>
+            <div 
+              className="w-full transition-all duration-1000 hover:scale-105 animate-float"
+              style={{
+                filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
+                animationDelay: '0.5s'
+              }}
+            >
+              <img 
+                src={productTin} 
+                alt="Guilt Free Diwali Product Tin" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Decorative elements */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-purple-rich/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-10 right-10 w-40 h-40 bg-blue-deep/20 rounded-full blur-3xl"></div>
-      </section>
-
-      {/* Image Reveal Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center py-20 gap-12">
-        <div 
-          className="w-full transition-all duration-1000 hover:scale-105 animate-float"
-          style={{
-            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
-            animationDelay: '0s'
-          }}
-        >
-          <img 
-            src={productBox} 
-            alt="Guilt Free Diwali Product Box" 
-            className="w-full h-auto"
-          />
-        </div>
-        <div 
-          className="w-full transition-all duration-1000 hover:scale-105 animate-float"
-          style={{
-            filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))',
-            animationDelay: '0.5s'
-          }}
-        >
-          <img 
-            src={productTin} 
-            alt="Guilt Free Diwali Product Tin" 
-            className="w-full h-auto"
-          />
-        </div>
       </section>
 
       {/* Text on Background Section */}
