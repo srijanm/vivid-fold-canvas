@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-yellow-bright">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden px-4 pt-8">
-        <img 
+      <section className="min-h-screen flex flex-col relative overflow-hidden px-4 pt-8 bg-pink-vibrant">
+        <img
           src={logo} 
           alt="The Whole Truth" 
           className="w-24 h-auto mb-2 drop-shadow-2xl"
