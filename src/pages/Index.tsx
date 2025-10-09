@@ -18,16 +18,16 @@ const Index = () => {
         <img 
           src={logo} 
           alt="The Whole Truth" 
-          className="w-40 h-auto mx-auto mb-4 drop-shadow-2xl"
+          className="w-24 h-auto mb-2 drop-shadow-2xl"
         />
         
         <div 
-          className={`flex-1 flex items-center justify-center transition-all duration-1000 ${
+          className={`flex-1 flex items-start justify-start pt-4 transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <div className="text-center z-10 max-w-4xl">
-            <h1 className="text-lg md:text-2xl font-bold text-foreground mb-6 leading-relaxed">
+          <div className="text-left z-10 max-w-4xl">
+            <h1 className="text-lg md:text-2xl font-bold text-foreground leading-relaxed">
               gifts without the guilt.
               <br /><br />
               show your love with mithai that's good for your loved ones.
