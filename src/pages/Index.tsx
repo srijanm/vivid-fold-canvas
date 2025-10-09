@@ -14,15 +14,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-yellow-bright">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden px-4 pt-8 bg-pink-vibrant">
-        <img
-          src={logo} 
-          alt="The Whole Truth" 
-          className="w-24 h-auto mb-2 drop-shadow-2xl"
-        />
+      <section className="min-h-screen flex flex-col relative overflow-hidden bg-pink-vibrant">
+        <div className="px-4 pt-8">
+          <img 
+            src={logo} 
+            alt="The Whole Truth" 
+            className="w-24 h-auto mx-auto mb-2 drop-shadow-2xl"
+          />
+        </div>
         
         <div 
-          className={`flex flex-col transition-all duration-1000 ${
+          className={`flex flex-col transition-all duration-1000 px-4 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
@@ -40,11 +42,13 @@ const Index = () => {
               <br /><br />
               available in a special edition tin box. can only be gifted, not bought.
               <br /><br />
-              <span className="text-pink-vibrant">soch nayi, pyar wahi.</span>
+              <span className="text-yellow-bright">soch nayi, pyar wahi.</span>
             </h1>
           </div>
+        </div>
 
-          {/* Product Images */}
+        {/* Product Images with Yellow Background */}
+        <div className="bg-yellow-bright py-12 px-4">
           <div className="flex flex-col gap-8 w-full">
             <div 
               className="w-full transition-all duration-1000 hover:scale-105 animate-float"
