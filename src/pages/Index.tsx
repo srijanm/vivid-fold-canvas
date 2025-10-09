@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.jpg";
-import mockupImage from "@/assets/mockup.png";
+import mockupImage from "@/assets/mockup-nobg.png";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
