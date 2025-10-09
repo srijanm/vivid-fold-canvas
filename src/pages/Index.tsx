@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Mail, Phone } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 import productBox from "@/assets/product-box.png";
 import productTin from "@/assets/product-tin.png";
 
