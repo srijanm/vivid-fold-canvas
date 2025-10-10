@@ -132,7 +132,7 @@ const Index = () => {
       </section>
 
       {/* Text on Background Section */}
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-8 px-6 md:px-4" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
+      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-16 px-6 md:px-8" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
         {/* Top Border */}
         <div 
           className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
@@ -143,11 +143,11 @@ const Index = () => {
             backgroundPosition: 'top center'
           }}
         />
-        <div className="max-w-4xl z-10 w-full">
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-foreground px-2 uppercase">
+        <div className="max-w-4xl z-10 w-full px-2">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-foreground uppercase">
             Diwali doesn't Diwali without mithai
           </h2>
-          <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed uppercase">
+          <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed uppercase px-2">
             <p>But with more people conscious about their health, mithai doesn't feel like the right gift, especially to people who you know are trying to take care of themselves.</p>
             
             <p>Because most mithai usually ends up as the reason for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
