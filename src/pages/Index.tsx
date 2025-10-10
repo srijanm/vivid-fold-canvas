@@ -76,7 +76,7 @@ const Index = () => {
         <div className="bg-yellow-bright py-12 px-4">
           {/* Border above products */}
           <div 
-            className="w-full h-12 md:h-16 lg:h-20 mb-8"
+            className="w-full h-12 md:h-16 lg:h-20"
             style={{
               backgroundImage: `url(${borderTop})`,
               backgroundRepeat: 'repeat-x',
