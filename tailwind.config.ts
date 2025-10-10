@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Lazy Dog', 'Space Grotesk', 'sans-serif'],
+        sans: ['Schoolbell', 'Space Grotesk', 'cursive'],
         serif: ['Crimson Text', 'serif'],
       },
       colors: {
