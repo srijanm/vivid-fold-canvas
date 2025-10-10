@@ -5,6 +5,7 @@ import productBox from "@/assets/product-box.png";
 import productTin from "@/assets/product-tin.png";
 import borderTop from "@/assets/border-top.png";
 import borderBottom from "@/assets/border-bottom.png";
+import gradientBg from "@/assets/gradient-bg.png";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,9 +15,9 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-yellow-bright">
+    <div className="min-h-screen" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden bg-pink-vibrant">
+      <section className="min-h-screen flex flex-col relative overflow-hidden" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
         {/* Top Border */}
         <div 
           className="w-full h-12 md:h-16 lg:h-20"
@@ -73,7 +74,7 @@ const Index = () => {
         />
 
         {/* Product Images with Yellow Background */}
-        <div className="bg-yellow-bright">
+        <div style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
           {/* Border above products */}
           <div 
             className="w-full h-12 md:h-16 lg:h-20"
@@ -131,7 +132,7 @@ const Index = () => {
       </section>
 
       {/* Text on Background Section */}
-      <section className="min-h-screen flex items-center justify-center gradient-text relative overflow-hidden py-20 px-4">
+      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-20 px-4" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
         {/* Top Border */}
         <div 
           className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
@@ -179,7 +180,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="min-h-screen flex items-center justify-center py-20 px-4 relative overflow-hidden">
+      <section className="min-h-screen flex items-center justify-center py-20 px-4 relative overflow-hidden" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
         {/* Top Border */}
         <div 
           className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
