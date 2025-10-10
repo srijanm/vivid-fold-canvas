@@ -3,6 +3,7 @@ import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 import productBox from "@/assets/product-box.png";
 import productTin from "@/assets/product-tin.png";
+import heroBackground from "@/assets/hero-background.png";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,7 +15,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-yellow-bright">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden bg-pink-vibrant">
+      <section 
+        className="min-h-screen flex flex-col relative overflow-hidden"
+        style={{
+          backgroundImage: `url(${heroBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="px-4 pt-2">
           <img 
             src={logo} 
