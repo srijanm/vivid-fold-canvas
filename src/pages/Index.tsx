@@ -178,8 +178,8 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-foreground text-yellow-bright py-8 text-center">
-        <p className="text-base uppercase">
+      <footer className="py-8 text-center" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
+        <p className="text-base uppercase text-foreground">
           © 2025 Srijan Mahajan. All rights reserved.
         </p>
       </footer>
