@@ -50,7 +50,7 @@ const Index = () => {
               <br /><br />
               high in protein. no added sugar. no fillers. no preservatives. no false claims. and no half truths.
               <br /><br />
-              because mithai should be eaten hakk se.
+              because mithai should be eaten HAQQ.
               <br /><br />
               available in a special edition tin box. can only be gifted, not bought.
               <br /><br />
