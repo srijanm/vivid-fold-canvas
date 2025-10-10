@@ -57,10 +57,31 @@ const Index = () => {
               <span className="text-yellow-bright">soch nayi, pyar wahi.</span>
             </h1>
           </div>
+          
+          {/* Border after text */}
+          <div 
+            className="w-full h-12 md:h-16 lg:h-20 mt-8"
+            style={{
+              backgroundImage: `url(${borderBottom})`,
+              backgroundRepeat: 'repeat-x',
+              backgroundSize: 'auto 100%',
+              backgroundPosition: 'bottom center'
+            }}
+          />
         </div>
 
         {/* Product Images with Yellow Background */}
         <div className="bg-yellow-bright py-12 px-4">
+          {/* Border above products */}
+          <div 
+            className="w-full h-12 md:h-16 lg:h-20 mb-8"
+            style={{
+              backgroundImage: `url(${borderTop})`,
+              backgroundRepeat: 'repeat-x',
+              backgroundSize: 'auto 100%',
+              backgroundPosition: 'top center'
+            }}
+          />
           <div className="flex flex-col gap-8 w-full">
             <div 
               className="w-full transition-all duration-1000 hover:scale-105 animate-float"
