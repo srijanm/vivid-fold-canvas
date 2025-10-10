@@ -18,10 +18,14 @@ const Index = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col relative overflow-hidden bg-pink-vibrant">
         {/* Top Border */}
-        <img 
-          src={borderTop} 
-          alt="" 
-          className="w-full h-12 md:h-16 lg:h-20 object-cover object-center"
+        <div 
+          className="w-full h-12 md:h-16 lg:h-20"
+          style={{
+            backgroundImage: `url(${borderTop})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'top center'
+          }}
         />
         <div className="px-4 pt-2">
           <img 
@@ -55,20 +59,28 @@ const Index = () => {
           </div>
           
           {/* Border after text */}
-          <img 
-            src={borderBottom} 
-            alt="" 
-            className="w-full h-12 md:h-16 lg:h-20 mt-8 object-cover object-center"
+          <div 
+            className="w-full h-12 md:h-16 lg:h-20 mt-8"
+            style={{
+              backgroundImage: `url(${borderBottom})`,
+              backgroundRepeat: 'repeat-x',
+              backgroundSize: 'auto 100%',
+              backgroundPosition: 'bottom center'
+            }}
           />
         </div>
 
         {/* Product Images with Yellow Background */}
         <div className="bg-yellow-bright py-12 px-4">
           {/* Border above products */}
-          <img 
-            src={borderTop} 
-            alt="" 
-            className="w-full h-12 md:h-16 lg:h-20 mb-8 object-cover object-center"
+          <div 
+            className="w-full h-12 md:h-16 lg:h-20 mb-8"
+            style={{
+              backgroundImage: `url(${borderTop})`,
+              backgroundRepeat: 'repeat-x',
+              backgroundSize: 'auto 100%',
+              backgroundPosition: 'top center'
+            }}
           />
           <div className="flex flex-col gap-8 w-full">
             <div 
@@ -105,20 +117,28 @@ const Index = () => {
         <div className="absolute bottom-10 right-10 w-40 h-40 bg-blue-deep/20 rounded-full blur-3xl"></div>
         
         {/* Bottom Border */}
-        <img 
-          src={borderBottom} 
-          alt="" 
-          className="w-full h-12 md:h-16 lg:h-20 object-cover object-center"
+        <div 
+          className="w-full h-12 md:h-16 lg:h-20"
+          style={{
+            backgroundImage: `url(${borderBottom})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'bottom center'
+          }}
         />
       </section>
 
       {/* Text on Background Section */}
       <section className="min-h-screen flex items-center justify-center gradient-text relative overflow-hidden py-20 px-4">
         {/* Top Border */}
-        <img 
-          src={borderTop} 
-          alt="" 
-          className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10 object-cover object-center"
+        <div 
+          className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
+          style={{
+            backgroundImage: `url(${borderTop})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'top center'
+          }}
         />
         <div className="max-w-4xl z-10">
           <div className="space-y-6 text-lg md:text-xl text-background/90 font-medium leading-relaxed">
@@ -145,20 +165,28 @@ const Index = () => {
         <div className="absolute bottom-20 left-20 w-56 h-56 bg-red-bold/10 rounded-full blur-3xl"></div>
         
         {/* Bottom Border */}
-        <img 
-          src={borderBottom} 
-          alt="" 
-          className="absolute bottom-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10 object-cover object-center"
+        <div 
+          className="absolute bottom-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
+          style={{
+            backgroundImage: `url(${borderBottom})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'bottom center'
+          }}
         />
       </section>
 
       {/* Contact Section */}
       <section className="min-h-screen flex items-center justify-center py-20 px-4 relative overflow-hidden">
         {/* Top Border */}
-        <img 
-          src={borderTop} 
-          alt="" 
-          className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10 object-cover object-center"
+        <div 
+          className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
+          style={{
+            backgroundImage: `url(${borderTop})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'top center'
+          }}
         />
         <div className="max-w-2xl w-full">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-12 text-pink-vibrant">
