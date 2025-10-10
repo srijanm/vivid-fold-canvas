@@ -73,7 +73,7 @@ const Index = () => {
         />
 
         {/* Product Images with Yellow Background */}
-        <div className="bg-yellow-bright py-12 px-4">
+        <div className="bg-yellow-bright">
           {/* Border above products */}
           <div 
             className="w-full h-12 md:h-16 lg:h-20"
@@ -84,7 +84,7 @@ const Index = () => {
               backgroundPosition: 'top center'
             }}
           />
-          <div className="flex flex-col gap-8 w-full">
+          <div className="py-12 px-4 flex flex-col gap-8 w-full">
             <div 
               className="w-full transition-all duration-1000 hover:scale-105 animate-float"
               style={{
