@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 import productBox from "@/assets/product-box.png";
 import productTin from "@/assets/product-tin.png";
@@ -178,46 +177,10 @@ const Index = () => {
         />
       </section>
 
-      {/* Contact Section */}
-      <section className="min-h-screen flex items-center justify-center py-20 px-4 relative overflow-hidden" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
-        {/* Top Border */}
-        <div 
-          className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
-          style={{
-            backgroundImage: `url(${borderTop})`,
-            backgroundRepeat: 'repeat-x',
-            backgroundSize: 'auto 100%',
-            backgroundPosition: 'top center'
-          }}
-        />
-        <div className="max-w-2xl w-full">
-          <h2 className="text-5xl md:text-7xl font-bold text-center mb-12 text-pink-vibrant uppercase">
-            GET IN TOUCH
-          </h2>
-
-          <div className="flex justify-center gap-8">
-            <a 
-              href="mailto:hello@thewholetruthfoods.com" 
-              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors uppercase"
-            >
-              <Mail className="w-5 h-5" />
-              <span>Email Us</span>
-            </a>
-            <a 
-              href="tel:+911234567890" 
-              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors uppercase"
-            >
-              <Phone className="w-5 h-5" />
-              <span>Call Us</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-foreground text-yellow-bright py-8 text-center">
         <p className="text-base uppercase">
-          © 2025 The Whole Truth Foods. All rights reserved.
+          © 2025 Srijan Mahajan. All rights reserved.
         </p>
       </footer>
     </div>
