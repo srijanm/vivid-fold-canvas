@@ -145,19 +145,17 @@ const Index = () => {
         />
         <div className="max-w-4xl z-10">
           <div className="space-y-6 text-lg md:text-xl text-background/90 font-medium leading-relaxed">
-            <p>Exchanging diwali gifts is a tale as old as time & mithai is always a part of the exchange.</p>
+            <p>Diwali doesn't feel like Diwali without mithai.</p>
             
-            <p>With an increasing number of people conscious about their health, mithai just doesn't feel right to gift, especially to people who you know are trying to take care of themselves.</p>
+            <p>But with more people conscious about their health, mithai doesn't feel like the right gift, especially to people who you know are trying to take care of themselves.</p>
             
-            <p>Because most mithai usually ends up as the cause for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
+            <p>Because most mithai usually ends up as the reason for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
             
-            <p className="font-bold text-xl md:text-2xl">But what if we could gift people "mithai" that's good for them?</p>
+            <p>But what if we could gift people "mithai" that's good for them?</p>
             
-            <p className="font-bold text-xl md:text-2xl">Mithai without the guilt?</p>
+            <p>Mithai without the guilt?</p>
             
-            <p>TWT has cemented itself as the go to brand for healthy, high protein foods.</p>
-            
-            <p>It would be amazing to launch a "Guilt Free Diwali ki Mithai" with an assortment of bite sized protein bars in a limited edition Diwali edition tin. If "guilt free" is not the right positioning, high protein can be one too.</p>
+            <p>TWT should launch a "Guilt Free Diwali ki Mithai" with an assortment of bite sized protein bars in a limited edition Diwali edition tin. If "guilt free" is not the right positioning, high protein can be one too.</p>
             
             <p>If you make this as a limited edition box which you can't buy for yourself but you can only gift to others (and do a take on the "regifting" phenomenon), it might be a great way to get newer people to try TWT (since people who're aware of TWT will send it to newer people) and get a whole new audience to taste TWT.</p>
           </div>
