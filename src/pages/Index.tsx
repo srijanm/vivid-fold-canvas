@@ -132,7 +132,7 @@ const Index = () => {
       </section>
 
       {/* Text on Background Section */}
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-20 px-4" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
+      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-8 px-4" style={{ backgroundImage: `url(${gradientBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
         {/* Top Border */}
         <div 
           className="absolute top-0 left-0 w-full h-12 md:h-16 lg:h-20 z-10"
