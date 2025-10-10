@@ -42,7 +42,7 @@ const Index = () => {
           }`}
         >
           <div className="text-left z-10 max-w-4xl mb-8">
-            <h1 className="text-xl md:text-2xl font-bold text-white leading-relaxed uppercase">
+            <h1 className="text-xl md:text-2xl font-bold text-foreground leading-relaxed uppercase">
               gifts without the guilt.
               <br /><br />
               show your love with mithai that's good for your loved ones.
@@ -144,7 +144,7 @@ const Index = () => {
           }}
         />
         <div className="max-w-4xl z-10 w-full">
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-white px-2 uppercase">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-foreground px-2 uppercase">
             Diwali doesn't Diwali without mithai
           </h2>
           <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed uppercase">
