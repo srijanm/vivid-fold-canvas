@@ -15,7 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-yellow-bright">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col relative overflow-hidden bg-pink-vibrant">
-        <div className="px-4 pt-8">
+        <div className="px-4 pt-2">
           <img 
             src={logo} 
             alt="The Whole Truth" 
