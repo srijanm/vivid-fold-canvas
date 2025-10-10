@@ -42,7 +42,7 @@ const Index = () => {
           }`}
         >
           <div className="text-left z-10 max-w-4xl mb-8">
-            <h1 className="text-xl md:text-2xl font-bold text-white leading-relaxed">
+            <h1 className="text-xl md:text-2xl font-bold text-white leading-relaxed uppercase">
               gifts without the guilt.
               <br /><br />
               show your love with mithai that's good for your loved ones.
@@ -144,10 +144,10 @@ const Index = () => {
           }}
         />
         <div className="max-w-4xl z-10 w-full">
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-white px-2">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-8 md:mb-12 text-white px-2 uppercase">
             Diwali doesn't Diwali without mithai
           </h2>
-          <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed">
+          <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed uppercase">
             <p>But with more people conscious about their health, mithai doesn't feel like the right gift, especially to people who you know are trying to take care of themselves.</p>
             
             <p>Because most mithai usually ends up as the reason for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
@@ -191,21 +191,21 @@ const Index = () => {
           }}
         />
         <div className="max-w-2xl w-full">
-          <h2 className="text-5xl md:text-7xl font-bold text-center mb-12 text-pink-vibrant">
+          <h2 className="text-5xl md:text-7xl font-bold text-center mb-12 text-pink-vibrant uppercase">
             GET IN TOUCH
           </h2>
 
           <div className="flex justify-center gap-8">
             <a 
               href="mailto:hello@thewholetruthfoods.com" 
-              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors"
+              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors uppercase"
             >
               <Mail className="w-5 h-5" />
               <span>Email Us</span>
             </a>
             <a 
               href="tel:+911234567890" 
-              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors"
+              className="flex items-center gap-2 text-xl hover:text-pink-vibrant transition-colors uppercase"
             >
               <Phone className="w-5 h-5" />
               <span>Call Us</span>
@@ -216,7 +216,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="bg-foreground text-yellow-bright py-8 text-center">
-        <p className="text-base">
+        <p className="text-base uppercase">
           © 2025 The Whole Truth Foods. All rights reserved.
         </p>
       </footer>
