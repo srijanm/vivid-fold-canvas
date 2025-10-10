@@ -144,9 +144,10 @@ const Index = () => {
           }}
         />
         <div className="max-w-4xl z-10">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-12 text-white">
+            Diwali doesn't Diwali without mithai
+          </h2>
           <div className="space-y-6 text-lg md:text-xl text-background/90 font-medium leading-relaxed">
-            <p>Diwali doesn't feel like Diwali without mithai.</p>
-            
             <p>But with more people conscious about their health, mithai doesn't feel like the right gift, especially to people who you know are trying to take care of themselves.</p>
             
             <p>Because most mithai usually ends up as the reason for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
