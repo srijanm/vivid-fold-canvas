@@ -147,17 +147,19 @@ const Index = () => {
             Diwali doesn't Diwali without mithai
           </h2>
           <div className="space-y-4 md:space-y-6 text-lg md:text-xl lg:text-2xl text-background/90 font-medium leading-relaxed uppercase px-2">
-            <p>But with more people conscious about their health, mithai doesn't feel like the right gift, especially to people who you know are trying to take care of themselves.</p>
+            <p>But more people care about their health & it doesn't feel right to gift mithai for those who want to stay fit.</p>
             
             <p>Because most mithai usually ends up as the reason for a week spent in a spiral of self loathing, starvation & sugar deprivation.</p>
             
-            <p>But what if we could gift people "mithai" that's good for them?</p>
+            <p>And no one wants to be responsible for that.</p>
             
-            <p>Mithai without the guilt?</p>
+            <p>TWT should make a "Guilt Free Diwali ki mithai" with assorted bite sized protein bars. If Guilt Free doesn't seem right, High Protein also works.</p>
             
-            <p>TWT should launch a "Guilt Free Diwali ki Mithai" with an assortment of bite sized protein bars in a limited edition Diwali edition tin. If "guilt free" is not the right positioning, high protein can be one too.</p>
+            <p>Packed in a limited edition tin which is gift only. You can't buy it for yourself, only gift it in the spirit of Diwali.</p>
             
-            <p>If you make this as a limited edition box which you can't buy for yourself but you can only gift to others (and do a take on the "regifting" phenomenon), it might be a great way to get newer people to try TWT (since people who're aware of TWT will send it to newer people) and get a whole new audience to taste TWT.</p>
+            <p>This gets new folks to try it out as fans send it to their friends.</p>
+            
+            <p>Market it as a campaign focussed on re-gifting. Something like "in a sea of re-gifted mithai, send mithai to be eaten haqq se".</p>
           </div>
         </div>
 
