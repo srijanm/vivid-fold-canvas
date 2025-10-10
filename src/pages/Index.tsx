@@ -58,17 +58,19 @@ const Index = () => {
             </h1>
           </div>
           
-          {/* Border after text */}
-          <div 
-            className="w-full h-12 md:h-16 lg:h-20 mt-8"
-            style={{
-              backgroundImage: `url(${borderBottom})`,
-              backgroundRepeat: 'repeat-x',
-              backgroundSize: 'auto 100%',
-              backgroundPosition: 'bottom center'
-            }}
-          />
+        
         </div>
+
+        {/* Border after text */}
+        <div 
+          className="w-full h-12 md:h-16 lg:h-20"
+          style={{
+            backgroundImage: `url(${borderBottom})`,
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'auto 100%',
+            backgroundPosition: 'top center'
+          }}
+        />
 
         {/* Product Images with Yellow Background */}
         <div className="bg-yellow-bright py-12 px-4">
